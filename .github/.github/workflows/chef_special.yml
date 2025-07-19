@@ -1,5 +1,5 @@
 name: Receipe book
-on: push
+on: [push]
   brnach: master
 jobs:
   name: greet
