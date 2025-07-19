@@ -1,0 +1,13 @@
+name: Receipe book
+on: push
+  brnach: master
+jobs:
+  name: greet
+  runs-on: ubuntu-latest
+  steps:
+    name: bring ingredients
+    uses: actions/checkout@v3
+    name: greet
+    uses: echo "Hello Chef, How are you and you're robot is ready to cook?"
+    name: dinner
+    uses: echo "You're dinner is ready"
